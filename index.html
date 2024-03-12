@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1: Callbacks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="container d-flex w-50 min-vh-100 align-items-center">
+
+    <div class="col align-items-center">
+
+        <h1 class="text-center mb-5">
+            Ejercicios
+        </h1>
+
+        <div class="row justify-content-center">
+            <p>
+                1.- Muestra un mensaje en consola mediante un callback. La función que escribas debe poder mostrar el
+                mensaje como
+                console.warn, console.log, console.info, o cualquier método para pintar en consola del objeto console.
+            </p>
+            <button class="btn btn-primary w-25" onclick="execute01()"> Ejercicio 1 </button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <p>2.- Crear una función que reciba como argumento una variable de cualquier tipo y un callback. La función
+                debe retornar
+                como resultado, mediante el callback, cual es el tipo de dato de la variable ingresada e imprimir su
+                contenido. typeof
+            </p>
+            <button class="btn btn-primary w-25" onclick="execute02()"> Ejercicio 2 </button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <p>3.- Crear una función que reciba como argumentos, dos números y un callback. Según el callback que se
+                pase a la función,
+                se devuelve la suma de los dos números, la resta de los dos números, la multiplicación de los dos
+                números o división.
+            </p>
+            <button class="btn btn-primary w-25" onclick="execute03()"> Ejercicio 3 </button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <p>4.- Escribe una función que reciba una cadena de caracteres y debe devolver, mediante un callback, la
+                cadena de
+                caracteres en mayúsculas o en minúsculas.
+                ordenSuperior("PejeLagarto", minus); -> pejelagarto ordenSuperior("PejeLagarto", mayus); -> PEJELAGARTO
+            </p>
+            <button class="btn btn-primary w-25" onclick="execute04()"> Ejercicio 4 </button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <p>5.- Hacer un arreglo de 4 cantidades de tiempo (en minutos) EJEMPLO [120, 80, 200, 100] y tomar solo las
+                cantidades
+                mayores a dos horas (hacer la comparación en horas) regresar el nuevo array mediante un callback.
+            </p>
+            <button class="btn btn-primary w-25" onclick="execute05()"> Ejercicio 5 </button>
+        </div>
+
+
+    </div>
+
+    <script src="01.js"></script>
+    <script src="02.js"></script>
+    <script src="03.js"></script>
+    <script src="04.js"></script>
+    <script src="05.js"></script>
+</body>
+
+</html>
